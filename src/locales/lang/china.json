@@ -1,0 +1,48 @@
+{
+  "nav": {
+    "allSports": "所有运动",
+    "liveSports": "体育直播",
+    "allCasino": "所有赌场",
+    "allGames": "所有游戏",
+    "upcomingEvent": "即将举行的活动",
+    "affiliate": "附属机构",
+    "more": "更多的",
+    "item1": "项目 1",
+    "item2": "项目2",
+    "item3": "项目3"
+  },
+  "footer": {
+    "linksData": {
+      "quickLinks": {
+        "title": "快速链接",
+        "links": {
+          "allSports": "所有运动",
+          "liveSports": "体育直播",
+          "allCasino": "所有赌场",
+          "liveCasino": "真人娱乐场",
+          "games": "游戏"
+        }
+      },
+      "usefulLinks": {
+        "title": "有用的链接",
+        "links": {
+          "termsOfService": "服务条款",
+          "antiMoneyLaundering": "反洗钱",
+          "kycPolicies": "了解您的客户政策",
+          "privacyManagement": "隐私管理",
+          "accountsPayoutsBonus": "账户和支出奖金"
+        }
+      },
+      "companyInfo": {
+        "title": "公司资料",
+        "links": {
+          "launchingYear": "推出年份",
+          "country": "国家",
+          "owner": "所有者",
+          "license": "执照",
+          "licenseYear": "许可年份"
+        }
+      }
+    }
+  }
+}

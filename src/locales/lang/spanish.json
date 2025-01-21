@@ -1,0 +1,48 @@
+{
+  "nav": {
+    "allSports": "Todos los deportes",
+    "liveSports": "Deportes en vivo",
+    "allCasino": "Todos los casinos",
+    "allGames": "Todos los juegos",
+    "upcomingEvent": "Próximo evento",
+    "affiliate": "Filial",
+    "more": "Más",
+    "item1": "Artículo 1",
+    "item2": "Artículo 2",
+    "item3": "Artículo 3"
+  },
+  "footer": {
+    "linksData": {
+      "quickLinks": {
+        "title": "Enlaces rápidos",
+        "links": {
+          "allSports": "Todos los deportes",
+          "liveSports": "Deportes en vivo",
+          "allCasino": "Todos los casinos",
+          "liveCasino": "Casino en vivo",
+          "games": "Juegos"
+        }
+      },
+      "usefulLinks": {
+        "title": "Enlaces útiles",
+        "links": {
+          "termsOfService": "Términos de servicio",
+          "antiMoneyLaundering": "Antilavado de dinero",
+          "kycPolicies": "Políticas de KYC",
+          "privacyManagement": "Gestión de privacidad",
+          "accountsPayoutsBonus": "Bono de cuentas y pagos"
+        }
+      },
+      "companyInfo": {
+        "title": "Información de la empresa",
+        "links": {
+          "launchingYear": "Año de lanzamiento",
+          "country": "País",
+          "owner": "Dueño",
+          "license": "Licencia",
+          "licenseYear": "Año de licencia"
+        }
+      }
+    }
+  }
+}

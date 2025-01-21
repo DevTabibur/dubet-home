@@ -1,0 +1,71 @@
+/* Styles with unique class names to prevent conflicts */
+.navigationmenu-nav-unique {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 350px;
+    /* z-index: 50; */
+  }
+  
+  .navigationmenu-background-unique {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 350px;
+  }
+  
+  /* Animated background gradient */
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+  .animated-gradient {
+    background: linear-gradient(
+      45deg,
+      #8b259e 5%,
+      #7a238b 10%,
+      #341939 40%
+    );
+    background-size: 200% 200%;
+    animation: gradient-animation 5s ease infinite;
+  }
+  
+  .navigationmenu-button-toggle-unique {
+    outline: none;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    top: 18px;
+    right: 15px;
+    width: 50px;
+    height: 50px;
+    background: transparent;
+  }
+  
+  .navigationmenu-list-unique {
+    position: absolute;
+    right: 0;
+  }
+  
+  .navigationmenu-item-unique {
+    list-style: none;
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+  
+  .navigationmenu-item-unique:hover {
+    transform: scale(1.05);
+  }
+  
+
+  

@@ -1,0 +1,331 @@
+/* SpinButton.module.css */
+
+/* .spinButton {
+    width: 200px;  
+    height: 200px; 
+    border-radius: 50%;
+    background-color: #ab21ff;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    transition: transform 0.2s ease-in-out;
+    z-index: 1;
+  } */
+  
+  /* .spinButton:hover {
+    transform: scale(1.05);
+  }
+   */
+  /* .spinButton::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 50%;
+    background: conic-gradient(
+      from 0deg, 
+      #5400c3, 
+      #a700f5, 
+      #5400c3, 
+      #5400c3, 
+      #ab21ff, 
+      #5400c3
+    );
+    padding: 10px; 
+    z-index: -1;   
+    animation: rotateBorder 4s linear infinite; 
+  } */
+  
+  /* @keyframes rotateBorder {
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+   */
+
+
+   /* another button */
+
+  /* .wrap {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .button {
+    min-width: 300px;
+    min-height: 60px;
+    display: inline-flex;
+    font-family: 'Nunito', sans-serif;
+    font-size: 22px;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 1.3px;
+    font-weight: 700;
+    color: #313133;
+    background: #4FD1C5;
+  background: linear-gradient(90deg, rgba(129,230,217,1) 0%, rgba(79,209,197,1) 100%);
+    border: none;
+    border-radius: 1000px;
+    box-shadow: 12px 12px 24px rgba(79,209,197,.64);
+    transition: all 0.3s ease-in-out 0s;
+    cursor: pointer;
+    outline: none;
+    position: relative;
+    padding: 10px;
+    }
+  
+  .button::before {
+  content: '';
+    border-radius: 1000px;
+    min-width: calc(300px + 12px);
+    min-height: calc(60px + 12px);
+    border: 6px solid #00FFCB;
+    box-shadow: 0 0 60px rgba(0,255,203,.64);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: all .3s ease-in-out 0s;
+  }
+  
+  .button:hover, 
+  .button:focus {
+    color: #313133;
+    transform: translateY(-6px);
+  }
+  
+  .button:hover::before, 
+  .button:focus::before {
+    opacity: 1;
+  }
+  
+  .button::after {
+    content: '';
+    width: 30px; height: 30px;
+    border-radius: 100%;
+    border: 6px solid #00FFCB;
+    position: absolute;
+    z-index: -1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: ring 1.5s infinite;
+  }
+  
+  .button:hover::after, 
+  .button:focus::after {
+    animation: none;
+    display: none;
+  }
+  
+  @keyframes ring {
+    0% {
+      width: 30px;
+      height: 30px;
+      opacity: 1;
+    }
+    100% {
+      width: 300px;
+      height: 300px;
+      opacity: 0;
+    }
+  } */
+
+
+
+  /* update code button */
+
+
+  /* SpinButton.module.css */
+
+  /* do not delete it===================================================================== */
+.container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  height: 300px;
+  background-color: #360040;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.spinButton {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  background-color: #9c27ff;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  z-index: 10;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+}
+
+.outerRingClockwise,
+.outerRingAntiClockwise {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+}
+
+.outerRingClockwise {
+  width: 250px;
+  height: 250px;
+  border: 15px solid transparent;
+  border-top-color: #ab21ff;
+  border-right-color: #ab21ff;
+  animation: rotateClockwise 6s linear infinite;
+}
+
+.outerRingAntiClockwise {
+  width: 280px;
+  height: 280px;
+  border: 15px solid transparent;
+  border-bottom-color: #a100ff;
+  border-left-color: #a100ff;
+  animation: rotateAntiClockwise 6s linear infinite;
+}
+
+@keyframes rotateClockwise {
+  100% {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+
+@keyframes rotateAntiClockwise {
+  100% {
+    transform: translate(-50%, -50%) rotate(-360deg);
+  }
+}
+
+/* =============================================================do not delete it=========================================================== */
+
+
+/* .customBlurEffect {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 300px; 
+  height: 300px; 
+  border-radius: 324px;
+  background: #BF0797;
+  filter: blur(1px);
+}
+
+.container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+
+.myElement {
+  border-radius: 107.143px;
+  border: 1.071px solid rgba(255, 255, 255, 0.2);
+  background-color: #C52EE1; /* var(--Brand-Color-Brand-1) fallback color 
+}
+
+.spinButton {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  background-color: #BF0797; 
+  background: linear-gradient(209deg, #C52EE1 13.39%, #AE00DC 29.3%, #7800BF 45.41%, rgba(102, 1, 160, 0.00) 69.36%);
+   filter: blur(10px);
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  z-index: 10;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+}
+
+.outerRingClockwise,
+.outerRingAntiClockwise {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+}
+
+.outerRingClockwise {
+  width: 250px;
+  height: 250px;
+  border: 15px solid transparent;
+  border-top-color: #ab21ff;
+  border-right-color: #ab21ff;
+  animation: rotateClockwise 6s linear infinite;
+}
+
+.outerRingAntiClockwise {
+  width: 280px;
+  height: 280px;
+  border: 15px solid transparent;
+  border-bottom-color: #a100ff;
+  border-left-color: #a100ff;
+  animation: rotateAntiClockwise 6s linear infinite;
+} */
+
+
+/* .gradientBackground {
+  width: 300px;
+  height: 300px;
+  background: linear-gradient(209deg, #C52EE1 13.39%, #AE00DC 29.3%, #7800BF 45.41%, rgba(102, 1, 160, 0.00) 69.36%);
+  border-radius: 50%;
+} */
+
+
+/* @keyframes rotateClockwise {
+  100% {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+
+@keyframes rotateAntiClockwise {
+  100% {
+    transform: translate(-50%, -50%) rotate(-360deg);
+  }
+} */
+
+
+

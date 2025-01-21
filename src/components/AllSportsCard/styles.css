@@ -1,0 +1,181 @@
+.atalanta {
+    position: absolute;
+    top: calc(50% - 72px);
+    left: calc(50% - 319px);
+    font-size: 24px;
+    line-height: 100%;
+    font-weight: 500;
+}
+.vs {
+    position: absolute;
+    top: calc(50% - 14px);
+    left: calc(50% - 294px);
+    font-size: 24px;
+    line-height: 100%;
+    font-weight: 500;
+}
+.celtic {
+    position: absolute;
+    top: 149px;
+    left: 20px;
+    font-size: 24px;
+    line-height: 100%;
+    font-weight: 500;
+}
+.groupChild {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.07);
+    width: 119px;
+    height: 60px;
+}
+.div {
+    position: absolute;
+    top: 12px;
+    left: calc(50% - 12.5px);
+    line-height: 100%;
+}
+.div1 {
+    position: absolute;
+    top: 36px;
+    left: calc(50% - 22.5px);
+    line-height: 100%;
+}
+.rectangleParent {
+    position: absolute;
+    top: 71px;
+    left: 153px;
+    width: 119px;
+    height: 60px;
+}
+.groupItem {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.07);
+    width: 124px;
+    height: 50px;
+}
+.div2 {
+    position: absolute;
+    top: calc(50% - 8px);
+    left: 93px;
+    line-height: 100%;
+    font-weight: 500;
+    text-align: right;
+}
+.rectangleGroup {
+    position: absolute;
+    top: 136px;
+    left: 439px;
+    width: 124px;
+    height: 50px;
+}
+.w {
+    position: absolute;
+    top: calc(50% - 8px);
+    left: 12px;
+    line-height: 100%;
+    font-weight: 500;
+}
+.div3 {
+    position: absolute;
+    top: calc(50% - 8px);
+    left: 81px;
+    line-height: 100%;
+    font-weight: 500;
+    text-align: right;
+}
+.rectangleContainer {
+    position: absolute;
+    top: 136px;
+    left: 295px;
+    width: 124px;
+    height: 50px;
+}
+.div4 {
+    position: absolute;
+    top: calc(50% - 8px);
+    left: 90px;
+    line-height: 100%;
+    font-weight: 500;
+    text-align: right;
+}
+.groupDiv {
+    position: absolute;
+    top: 16px;
+    left: 439px;
+    width: 124px;
+    height: 50px;
+}
+.div5 {
+    position: absolute;
+    top: calc(50% - 8px);
+    left: 95px;
+    line-height: 100%;
+    font-weight: 500;
+    text-align: right;
+}
+.rectangleParent1 {
+    position: absolute;
+    top: 76px;
+    left: 439px;
+    width: 124px;
+    height: 50px;
+}
+.rectangleParent2 {
+    position: absolute;
+    top: 16px;
+    left: 295px;
+    width: 124px;
+    height: 50px;
+}
+.frameChild {
+    position: absolute;
+    top: 111px;
+    left: 583px;
+    width: 75px;
+    height: 75px;
+}
+.groupChild3 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.07);
+    width: 75px;
+    height: 75px;
+}
+.rectangleWrapper {
+    position: absolute;
+    top: 16px;
+    left: 583px;
+    width: 75px;
+    height: 75px;
+}
+.frameItem {
+    position: absolute;
+    top: 33px;
+    left: 601px;
+    border-radius: 1px;
+    width: 40px;
+    height: 40px;
+}
+.atalantaParent {
+    width: 100%;
+    position: relative;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-sizing: border-box;
+    height: 202px;
+    overflow: hidden;
+    text-align: left;
+    font-size: 16px;
+    color: #fff;
+    font-family: Gilroy;
+}
+

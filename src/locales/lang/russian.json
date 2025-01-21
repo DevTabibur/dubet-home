@@ -1,0 +1,71 @@
+{
+  "nav": {
+    "allSports": "Все виды спорта",
+    "liveSports": "Живой спорт",
+    "allCasino": "Все казино",
+    "allGames": "Все игры",
+    "upcomingEvent": "Предстоящее событие",
+    "affiliate": "Партнер",
+    "more": "Более",
+    "item1": "Пункт 1",
+    "item2": "Пункт 2",
+    "item3": "Пункт 3"
+  },
+  "footer": {
+    "linksData": {
+      "quickLinks": {
+        "title": "Быстрые ссылки",
+        "links": {
+          "allSports": "Все виды спорта",
+          "liveSports": "Живой спорт",
+          "allCasino": "Все казино",
+          "liveCasino": "Живое казино",
+          "games": "Игры"
+        }
+      },
+      "usefulLinks": {
+        "title": "Полезные ссылки",
+        "links": {
+          "termsOfService": "Условия использования",
+          "antiMoneyLaundering": "Борьба с отмыванием денег",
+          "kycPolicies": "Политика KYC",
+          "privacyManagement": "Управление конфиденциальностью",
+          "accountsPayoutsBonus": "Счета и выплаты Бонус"
+        }
+      },
+      "companyInfo": {
+        "title": "Информация о компании",
+        "links": {
+          "launchingYear": "Год запуска",
+          "country": "Страна",
+          "owner": "Владелец",
+          "license": "Лицензия",
+          "licenseYear": "Год лицензии"
+        }
+      }
+    }
+  },
+  "accountSidebar": {
+    "personalProfile": "Личный профиль",
+    "security": "Безопасность",
+    "accountSettings": "Настройки аккаунта",
+    "deposit": "Депозит",
+    "withdrawFunds": "Вывести средства",
+    "betHistory": "История ставок",
+    "transactionHistory": "История транзакций",
+    "bonusesAndGifts": "Бонусы и подарки",
+    "customerSupport": "Поддержка клиентов",
+    "logOut": "Выйти"
+  },
+  "paymentSidebar": {
+    "recommended-methods": "Рекомендуемые методы",
+    "all-methods": "Все методы",
+    "e-wallets": "Электронные кошельки",
+    "payment-system": "Платежная система",
+    "e-currency-exchangers": "Обменники электронной валюты",
+    "internet-banking": "Интернет-банкинг",
+    "bank-transfer": "Банковский перевод",
+    "crypto-currency": "Криптовалюта",
+    "e-vouchers": "Электронные ваучеры"
+  }
+}

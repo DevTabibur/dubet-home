@@ -1,0 +1,100 @@
+.profile-balance-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #3c1255;
+    padding: 15px 20px;
+    border-radius: 20px;
+    color: white;
+    font-family: Arial, sans-serif;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Curved background shapes */
+.profile-balance-container::before,
+.profile-balance-container::after {
+    content: '';
+    position: absolute;
+    background: rgba(255, 255, 255, 0.1);
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+
+.profile-balance-container::before {
+    top: -30px;
+    left: -30px;
+    transform: rotate(25deg);
+}
+
+.profile-balance-container::after {
+    bottom: -30px;
+    right: -30px;
+    transform: rotate(-25deg);
+}
+
+.profile-section {
+    display: flex;
+    align-items: center;
+}
+
+.profile-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #8e44ad;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+.avatar-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.username {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.balance-section {
+    display: flex;
+    align-items: center;
+}
+
+.add-balance-btn,
+.settings-btn {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 0 5px;
+}
+
+.balance-display {
+    display: flex;
+    align-items: center;
+    background-color: #5e3b6b;
+    border-radius: 10px;
+    padding: 5px 10px;
+    margin: 0 10px;
+}
+
+.currency-icon {
+    font-size: 20px;
+    margin-right: 5px;
+}
+
+.balance-amount {
+    font-size: 18px;
+    font-weight: bold;
+}

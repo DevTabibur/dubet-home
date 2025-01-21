@@ -1,0 +1,7 @@
+export { default as ByEmailForm } from './ByEmailForm'
+export { default as ByPhoneForm } from './ByPhoneForm'
+export { default as LoginForm } from './LoginForm'
+export { default as OnclickForm } from './OnclickForm'
+export { default as SmsForm } from './SmsForm'
+export { default as ConfirmationCode } from './ConfirmationCode'
+export { default as ForgetPasswordForm } from './ForgetPasswordForm'

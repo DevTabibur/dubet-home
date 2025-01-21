@@ -1,0 +1,71 @@
+{
+  "nav": {
+    "allSports": "সমস্ত খেলাধুলা",
+    "liveSports": "লাইভ স্পোর্টস",
+    "allCasino": "সব ক্যাসিনো",
+    "allGames": "সব গেম",
+    "upcomingEvent": "আসন্ন ইভেন্ট",
+    "affiliate": "অধিভুক্ত",
+    "more": "আরও",
+    "item1": "আইটেম 1",
+    "item2": "আইটেম 2",
+    "item3": "আইটেম 3"
+  },
+  "footer": {
+    "linksData": {
+      "quickLinks": {
+        "title": "দ্রুত লিঙ্ক",
+        "links": {
+          "allSports": "সমস্ত খেলাধুলা",
+          "liveSports": "লাইভ স্পোর্টস",
+          "allCasino": "সব ক্যাসিনো",
+          "liveCasino": "লাইভ ক্যাসিনো",
+          "games": "গেমস"
+        }
+      },
+      "usefulLinks": {
+        "title": "দরকারী লিঙ্ক",
+        "links": {
+          "termsOfService": "পরিষেবার শর্তাবলী",
+          "antiMoneyLaundering": "এন্টি মানি লন্ডারিং",
+          "kycPolicies": "কেওয়াইসি নীতি",
+          "privacyManagement": "গোপনীয়তা ব্যবস্থাপনা",
+          "accountsPayoutsBonus": "অ্যাকাউন্টস এবং পেআউট বোনাস"
+        }
+      },
+      "companyInfo": {
+        "title": "কোম্পানির তথ্য",
+        "links": {
+          "launchingYear": "লঞ্চিং ইয়ার",
+          "country": "দেশ",
+          "owner": "মালিক",
+          "license": "লাইসেন্স",
+          "licenseYear": "লাইসেন্সের বছর"
+        }
+      }
+    }
+  },
+  "accountSidebar": {
+    "personalProfile": "ব্যক্তিগত প্রোফাইল",
+    "security": "নিরাপত্তা",
+    "accountSettings": "অ্যাকাউন্ট সেটিংস",
+    "deposit": "ডিপোজিট",
+    "withdrawFunds": "ফান্ড উত্তোলন",
+    "betHistory": "বেট ইতিহাস",
+    "transactionHistory": "লেনদেন ইতিহাস",
+    "bonusesAndGifts": "বোনাস এবং উপহার",
+    "customerSupport": "গ্রাহক সহায়তা",
+    "logOut": "লগ আউট"
+  },
+  "paymentSidebar": {
+    "recommended-methods": "প্রস্তাবিত পদ্ধতি",
+    "all-methods": "সমস্ত পদ্ধতি",
+    "e-wallets": "ই-ওয়ালেট",
+    "payment-system": "পেমেন্ট সিস্টেম",
+    "e-currency-exchangers": "ই-কারেন্সি এক্সচেঞ্জার",
+    "internet-banking": "ইন্টারনেট ব্যাংকিং",
+    "bank-transfer": "ব্যাংক ট্রান্সফার",
+    "crypto-currency": "ক্রিপ্টো কারেন্সি",
+    "e-vouchers": "ই-ভাউচার"
+  }
+}

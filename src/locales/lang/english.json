@@ -1,0 +1,71 @@
+{
+  "nav": {
+    "allSports": "All Sports",
+    "liveSports": "Live Sports",
+    "allCasino": "All Casino",
+    "allGames": "All Games",
+    "upcomingEvent": "Upcoming Event",
+    "affiliate": "Affiliate",
+    "more": "More",
+    "item1": "Item 1",
+    "item2": "Item 2",
+    "item3": "Item 3"
+  },
+  "footer": {
+    "linksData": {
+      "quickLinks": {
+        "title": "Quick Links",
+        "links": {
+          "allSports": "All Sports",
+          "liveSports": "Live Sports",
+          "allCasino": "All Casino",
+          "liveCasino": "Live Casino",
+          "games": "Games"
+        }
+      },
+      "usefulLinks": {
+        "title": "Useful Links",
+        "links": {
+          "termsOfService": "Terms of Service",
+          "antiMoneyLaundering": "Anti-Money Laundering",
+          "kycPolicies": "KYC Policies",
+          "privacyManagement": "Privacy Management",
+          "accountsPayoutsBonus": "Accounts & Payouts Bonus"
+        }
+      },
+      "companyInfo": {
+        "title": "Company Info",
+        "links": {
+          "launchingYear": "Launching Year",
+          "country": "Country",
+          "owner": "Owner",
+          "license": "License",
+          "licenseYear": "License Year"
+        }
+      }
+    }
+  },
+  "accountSidebar": {
+    "personalProfile": "Personal Profile",
+    "security": "Security",
+    "accountSettings": "Account Settings",
+    "deposit": "Deposit",
+    "withdrawFunds": "Withdraw Funds",
+    "betHistory": "Bet History",
+    "transactionHistory": "Transaction History",
+    "bonusesAndGifts": "Bonuses and Gifts",
+    "customerSupport": "Customer Support",
+    "logOut": "Log Out"
+  },
+  "paymentSidebar": {
+    "recommended-methods": "Recommended Methods",
+    "all-methods": "All Methods",
+    "e-wallets": "E-Wallets",
+    "payment-system": "Payment System",
+    "e-currency-exchangers": "E-Currency Exchangers",
+    "internet-banking": "Internet Banking",
+    "bank-transfer": "Bank Transfer",
+    "crypto-currency": "Crypto Currency",
+    "e-vouchers": "E-Vouchers"
+  }
+}

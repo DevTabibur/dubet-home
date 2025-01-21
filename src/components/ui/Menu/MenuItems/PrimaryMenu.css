@@ -1,0 +1,36 @@
+
+/* #C52EE1  */
+#primaryMenuItem {
+  background-color: #000; /* Black background */
+  color: #fff;
+  font-size: 24px;
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 14px;
+  position: relative;
+  overflow: hidden; /* Ensures the gradient doesn't overflow */
+}
+
+#primaryMenuItem::before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 80px; 
+  height: 80px;
+  top: 0;
+  left: 0;
+  background: radial-gradient(
+    circle at top left, 
+    rgba(198, 46, 225, 0.774), 
+    rgba(0, 0, 0, 0.8) 70%, 
+    rgba(0, 0, 0, 1) 100%
+  );
+  /* background: radial-gradient(
+    circle at top left, 
+    rgba(197, 46, 225, 1), 
+    rgba(0, 0, 0, 0.8) 60%, 
+    rgba(0, 0, 0, 1) 100%
+  ); */
+  border-radius: 5px; 
+  z-index: 1;
+}

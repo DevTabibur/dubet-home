@@ -1,0 +1,48 @@
+{
+  "nav": {
+    "allSports": "सभी खेल",
+    "liveSports": "लाइव स्पोर्ट्स",
+    "allCasino": "सभी कैसीनो",
+    "allGames": "सभी खेल",
+    "upcomingEvent": "आगामी कार्यक्रम",
+    "affiliate": "संबद्ध",
+    "more": "अधिक",
+    "item1": "वस्तु 1",
+    "item2": "मद 2",
+    "item3": "मद 3"
+  },
+  "footer": {
+    "linksData": {
+      "quickLinks": {
+        "title": "त्वरित सम्पक",
+        "links": {
+          "allSports": "सभी खेल",
+          "liveSports": "लाइव स्पोर्ट्स",
+          "allCasino": "सभी कैसीनो",
+          "liveCasino": "लाइव कैसीनो",
+          "games": "खेल"
+        }
+      },
+      "usefulLinks": {
+        "title": "उपयोगी कड़ियां",
+        "links": {
+          "termsOfService": "सेवा की शर्तें",
+          "antiMoneyLaundering": "मनी लॉन्ड्रिंग विरोधी",
+          "kycPolicies": "केवाईसी नीतियां",
+          "privacyManagement": "गोपनीयता प्रबंधन",
+          "accountsPayoutsBonus": "खाते और भुगतान बोनस"
+        }
+      },
+      "companyInfo": {
+        "title": "कारखाना की जानकारी",
+        "links": {
+          "launchingYear": "लॉन्चिंग वर्ष",
+          "country": "देश",
+          "owner": "मालिक",
+          "license": "लाइसेंस",
+          "licenseYear": "लाइसेंस वर्ष"
+        }
+      }
+    }
+  }
+}

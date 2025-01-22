@@ -1,5 +1,5 @@
 export interface MenuItem {
-  items: any
+  items?: any
   key: string
   path: string
   title: string

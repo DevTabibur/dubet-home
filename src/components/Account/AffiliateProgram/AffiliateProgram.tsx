@@ -1,5 +1,6 @@
+/* eslint-disable @next/next/no-img-element */
 import React from 'react'
-import group from '@/assets/demo/Group.png'
+import group from '@/assets/demo/group.png'
 import group2 from '@/assets/demo/group2.png'
 const AffiliateProgram = () => {
   return (

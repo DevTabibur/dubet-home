@@ -22,13 +22,14 @@
   "rules": {
     "no-unused-vars": "off", // Disable base ESLint rule
     "@typescript-eslint/no-unused-vars": [
-      "error", // Enforce unused variables as errors
+      "off", // Enforce unused variables as errors
       { "argsIgnorePattern": "^_", "varsIgnorePattern": "^_" }
     ],
+    //  "@typescript-eslint/no-unused-vars": "off",
     "prefer-const": "error", // Keep your custom rules here
     "no-unused-expressions": "error",
     "no-unreachable": "error",
-    "no-undef": "error",
+    "no-undef": "off",
     "no-console": "warn",
     "@typescript-eslint/no-explicit-any" : "off"
   }

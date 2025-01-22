@@ -4,7 +4,6 @@
 import CricketSportsCard from '@/components/AllSportsCard/CricketSportsCard'
 import BatBall from '../../assets/sportsCard/svg/batBall.svg'
 import Image from 'next/image'
-import Container from '@/components/shared/Container/Container'
 import BetSlip from '@/components/ui/BetSlip/BetSlip'
 import PopularCasino from '@/sections/PopularCasino/PopularCasino'
 import MatchCard from '@/components/ui/Cards/MatchCard/MatchCard'

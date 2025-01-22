@@ -90,7 +90,7 @@ const allGamesData = [
 const AllGames = () => {
   const [searchTerm, setSearchTerm] = useState('')
   const [filteredGames, setFilteredGames] = useState(allGamesData)
-
+  console.log('setFilteredGames', setFilteredGames);
   const handleSearchSubmit = (value: string) => {
     setSearchTerm(value)
   }

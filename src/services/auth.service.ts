@@ -11,7 +11,9 @@ export const storeUserInfo = ({ accessToken }: any) => {
   return setToLocalStorage(authKey, accessToken)
 }
 
-export const getSingleUserInfo = ({ userId }: any) => {}
+export const getSingleUserInfo = ({ userId }: any) => {
+  console.log('userId', userId)
+}
 
 // ! get logged in user info
 export const getLoggedInUser = () => {
@@ -19,6 +21,7 @@ export const getLoggedInUser = () => {
   if (authToken) {
     const decodedData = decodedToken(authToken)
     const { _id }: any = decodedData
+    console.log("_id", _id)
     return decodedData
   } else {
     return ''

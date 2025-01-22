@@ -3,12 +3,12 @@
 import Link from 'next/link'
 import Container from '../Container/Container'
 import HeaderTop from '../HeaderTop/HeaderTop'
-import { arrowDown } from '../../../assets/svg'
+
 import { menuConfig, moreMenuTablet } from '@/constants/header'
 import { MenuItem } from '@/interface/header'
-import Image from 'next/image'
-import { useState, useEffect, useCallback, Key } from 'react'
-import { motion } from 'framer-motion'
+
+import { useState, useEffect, useCallback } from 'react'
+
 import { useLanguage } from '@/context/LanguageContext'
 
 const HeaderComponent = () => {

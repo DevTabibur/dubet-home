@@ -18,9 +18,9 @@
 
 // export default SearchBar
 
+"use client"
 
-
-import React, { useState, useRef } from 'react';
+import React, { useState, useRef, } from 'react';
 import { FaSearch, FaMicrophone } from 'react-icons/fa';
 import { motion, AnimatePresence } from 'framer-motion';
 import { IoCloseSharp } from 'react-icons/io5';
@@ -57,32 +57,67 @@ const SearchBar: React.FC = () => {
       (window as any).SpeechRecognition || (window as any).webkitSpeechRecognition;
 
     recognitionRef.current = new SpeechRecognition();
-    recognitionRef.current.lang = 'en-US';
-    recognitionRef.current.interimResults = false;
-    recognitionRef.current.maxAlternatives = 1;
+    
+    if (recognitionRef.current) {
+      recognitionRef.current.lang = 'en-US';
+      recognitionRef.current.interimResults = false;
+      recognitionRef.current.maxAlternatives = 1;
 
-    recognitionRef.current.onstart = () => {
-      setIsListening(true);
-    };
+      recognitionRef.current.onstart = () => {
+        setIsListening(true);
+      };
 
-    recognitionRef.current.onerror = (event: SpeechRecognitionErrorEvent) => {
-      console.error('Speech recognition error', event.error);
-      setIsListening(false);
-    };
+      recognitionRef.current.onerror = (event: SpeechRecognitionErrorEvent) => {
+        console.error('Speech recognition error', event.error);
+        setIsListening(false);
+      };
 
-    recognitionRef.current.onend = () => {
-      setIsListening(false);
-    };
+      recognitionRef.current.onend = () => {
+        setIsListening(false);
+      };
 
-    recognitionRef.current.onresult = (event: SpeechRecognitionEvent) => {
-      const transcript = event.results[0][0].transcript;
-      setSearchQuery(transcript);
-      performSearch(transcript);
-      setIsListening(false);
-    };
+      recognitionRef.current.onresult = (event: SpeechRecognitionEvent) => {
+        const transcript = event.results[0][0].transcript;
+        setSearchQuery(transcript);
+        performSearch(transcript);
+        setIsListening(false);
+      };
 
-    recognitionRef.current.start();
+      recognitionRef.current.start();
+    }
   };
+
+  // useEffect(() => {
+  //   const SpeechRecognition =
+  //     window.SpeechRecognition || window.webkitSpeechRecognition;
+
+  //   if (!SpeechRecognition) {
+  //     console.error("Speech Recognition API is not supported in this browser.");
+  //     return;
+  //   }
+
+  //   recognitionRef.current = new SpeechRecognition();
+  //   recognitionRef.current.lang = "en-US";
+  //   recognitionRef.current.interimResults = false;
+  //   recognitionRef.current.maxAlternatives = 1;
+
+  //   recognitionRef.current.onstart = () => setIsListening(true);
+  //   recognitionRef.current.onend = () => setIsListening(false);
+  //   recognitionRef.current.onerror = (event) => {
+  //     console.error("Speech recognition error: ", event.error);
+  //     setIsListening(false);
+  //   };
+  //   recognitionRef.current.onresult = (event) => {
+  //     const transcript = event.results[0][0].transcript;
+  //     console.log("Transcript: ", transcript);
+  //     setIsListening(false);
+  //     // Add your search logic here
+  //   };
+
+  //   return () => {
+  //     recognitionRef.current = null;
+  //   };
+  // }, []);
 
   // Stop Speech Recognition
   const stopListening = () => {
